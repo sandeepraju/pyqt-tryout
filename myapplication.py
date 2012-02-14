@@ -11,7 +11,7 @@ class MyApplication(QWidget):
 	  self.layout = QVBoxLayout(self)
 
 	  #creating widgets & adding them to the layout created
-	  self.label = QLabel("GSoC",self)
+	  self.label = QLabel("Qt",self)
 	  self.layout.addWidget(self.label)
 
 	  self.edit = QLineEdit("KDE",self)
